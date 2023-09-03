@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .2s;
+    border: none;
+}
+
+body {
+    font-family: 'Vollkorn', Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+    background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
