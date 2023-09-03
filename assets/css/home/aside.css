@@ -1,0 +1,23 @@
+.sidenav {
+    background-color: #fafbfc;
+    padding: 30px;
+}
+
+.sidenav li a {
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px #2c2c2c26;
+    transition: .1s ease-out;
+}
+
+.sidenav li a:hover {
+    background: #b07dfb;
+}
+
+.sidenav li a img {
+    width: 100%;
+}
