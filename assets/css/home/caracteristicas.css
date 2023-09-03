@@ -1,0 +1,32 @@
+.caracteristicas {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.caracteristicas > div {
+    width: 80px;
+    text-align: center;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px #2c2c2c26;
+}
+
+.caracteristicas span {
+    display: block;
+    color: #b07dfb;
+}
+
+.numero {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rotulo {
+    background: white;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+    transform: translateY(2px);
+}

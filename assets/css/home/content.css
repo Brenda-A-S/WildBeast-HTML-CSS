@@ -1,0 +1,47 @@
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.col-wide {
+    grid-column: 1/3;
+}
+
+.imagem-1 {
+    grid-row: span 2;
+}
+
+.item-2 {
+    align-self: end;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: -0.005rem;
+    color: #2e2e2e;
+}
+
+.informaçãoes p+p {
+    margin-top: 30px;
+}
+
+.titulo {
+    color: #b07dfb;
+}
+
+.titulo h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.titulo span {
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
