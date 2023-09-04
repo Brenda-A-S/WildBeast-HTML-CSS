@@ -17,3 +17,39 @@
 .sidenav li a:hover {
     background: #b07dfb;
 }
+
+@keyframes seta {
+    from {
+        right: 30px;
+    }
+
+    to {
+        right: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    .sidenav {
+        overflow-x: auto;
+        position: relative;
+    }
+
+    .sidenav::after {
+        content: '→';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        color: rgba(0, 0, 0, 0.3);
+        animation: seta 0.5s ease-in 0s infinite alternate;
+    }
+
+    .sidenav ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    .sidenav ul li {
+        flex: 1 0 100px;
+
+    }
+}
